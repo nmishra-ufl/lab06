@@ -1,4 +1,5 @@
 def encode(password):
+    # Written by Nikhil Mishra
     new_password = ""
     for num in password:
         new_password += (str((int(num) + 3) % 10))
